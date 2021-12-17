@@ -1,0 +1,21 @@
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+.gm-style-iw{
+    color: red !important;
+}
+
+/* Center the pop-up*/
+.gm-style .gm-style-iw-c {
+    transform: translate3d(15%,-10%,0);
+}
+
+.gm-style .gm-style-iw-t::after {
+   display: none;
+}
+
+.image-pop-up{
+    width: 100px;
+}
