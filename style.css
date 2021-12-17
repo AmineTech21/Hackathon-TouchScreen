@@ -5,12 +5,25 @@ body{
 
 
 .Google-map{
+    display: flex;
     margin: 15px;
     font-size: 20px;
   /*  border: 7px solid blue;*/
     border-radius: 10px;
 
 }
+/*Direction of the menu*/
+ul{
+    display: flex;
+    flex-direction: column !important;
+}
+/*Direction of all the div in the navbar*/
+.navbar div{
+    display: flex;
+    flex-direction: column !important;
+
+}
+
 .Google-map img{
     width: 50px;
 }
