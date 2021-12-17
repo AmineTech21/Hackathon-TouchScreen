@@ -54,9 +54,9 @@ function initMap(){
 
 
         },
-        {   //theatre
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+        {   //lieux de loisir
+            coords:{lat:35.703376185286515,lng:-0.650120428791579},
+            IconImage:'images/icone_Lieux_De_Loisirs.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -71,8 +71,8 @@ function initMap(){
 
         },
         {   //tramway
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+            coords:{lat:35.703091877885086,lng:-0.59593973938875},
+            IconImage:'images/icone_Station_De_Tramway.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -87,8 +87,8 @@ function initMap(){
 
         },
         {   //Restaurant
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+            coords:{lat:35.70940833719052,lng:-0.6214963744114093},
+            IconImage:'images/Icone_Restaurants.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -103,8 +103,8 @@ function initMap(){
 
         },
         {   //Parking
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+            coords:{lat:35.70940722579518,lng:-0.6570279608898758},
+            IconImage:'images/Icone_Parking.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -118,9 +118,9 @@ function initMap(){
 
 
         },
-        {   //Monuments
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+        {   //Monuments Santa Cruz
+            coords:{lat:35.70928092992421,lng:-0.6650650659655842},
+            IconImage:'images/Icone_monuments.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -134,9 +134,9 @@ function initMap(){
 
 
         },
-        {   //Loisir
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+        {   //Loisir parc d'attraction
+            coords:{lat:35.692812718718535,lng:-0.6411502311308215},
+            IconImage:'images/Icone_Lieux_De_Loisirs.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -151,8 +151,8 @@ function initMap(){
 
         },
         {   //Hotels
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+            coords:{lat:35.70228059701139,lng:-0.6422976782824164},
+            IconImage:'images/Icone_Hotels.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
@@ -167,8 +167,8 @@ function initMap(){
 
         },
         {   //evenements
-            coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/icone_theatre_regional_doran.svg',
+            coords:{lat:35.68285430033291,lng:-0.6557638184552692},
+            IconImage:'images/Icone_evenements.svg',
             content:`<h1 style="text-align: center;">Mosquée</h1> <br>
             <hr>
             <div class="about-section-pop-up">
