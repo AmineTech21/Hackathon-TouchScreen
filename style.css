@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Google-map{
+    margin: 15px;
+    font-size: 20px;
+  /*  border: 7px solid blue;*/
+    border-radius: 10px;
+
+}
+.Google-map img{
+    width: 50px;
+}
+.map-color{
+    border: 5px #0DCAF0 solid;
+}
+
+
 #map{
-    height: 800px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 600px;
     width: 100%;
 }
 
@@ -15,10 +38,17 @@
 .gm-style .gm-style-iw-t::after {
    /*display: none;-------------------------*/
 }
+
+/*petit bonhomme*/
+.gm-svpc{
+    display: none;
+}
+
 /*photo in the pop-up*/
 .image-pop-up{
     width: 100px;
 }
+
 /*about section pop up*/
 .about-section-pop-up{
     display: grid;
@@ -28,11 +58,18 @@
 
 }
 
+/*Taille Image dans le pop-up*/
+.about-section-pop-up img{
+    width: 150px;
+}
+
+/*position image dans le pop-up*/
 .grid-item1-pop-up {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 
+/*position about section pop up*/
 .grid-item2-pop-up {
     grid-column-start: 3;
     grid-column-end: 4;

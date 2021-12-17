@@ -1,0 +1,25 @@
+{
+    [
+     {
+         "type" :"hotel",
+         "structue" : "Royal Hotel Oran - MGallery",
+         "description" : "Located a 5-minute walk from the 18th-century Hassan Basha Mosque, this elegant, antique-rich hotel is housed in a building from the 1920s. It is a 15-minute walk from the Ahmed Zabana National Museum and 5 km from the medieval fort of Santa-Cruz.",
+         "photos" : ["bRHh5AZm_pJ4wySIF4vnajF4Sb3fr8P90V3LgZXrfqdJL0apdaujRi5EKAaucnT9YJ-CeoeVQwsAvR3m3R4i2CP5dRRbkfYCzU6ctTuyAwaMePHimWjugKhjO75-5ZdRvjzZnOHgW-B1L2nrEs-jPWAYqakwVQw253-h189-k-no.png","JXhqGMyV9mxRRDMDCXUcPlbmX4G4ZOraXqzFdIR4531nH21772ZP_lVeqLVLvSYt48aecbtoG8d6UMYECAsfCSAIFzuXpTiGwvMUzdAvfGGk-iI-An06IyskPfSoHQ84vuYgebP8eey_XdahcJNSjw8YgTclPww253-h189-k-no.png"],
+         "instagram" : "@royalhoteloran"
+     },
+     {
+         "type" : "cafe",
+         "structue" : "cafe central perk Algeria",
+         "description" : "A place (cafe) where brunch coffe freinds and food meets",
+         "photos" : ["IMG_20211216_233033.jpg","IMG_20211216_233049.jpg"],
+         "instagram" : "@centralperkalgerie"
+     },
+         {
+         "type" : "entertainement park",
+         "structue" : "kristel park",
+         "description" : "An aqua park to relax and entertain in the ouest of oran",
+         "photos" : ["IMG_20211216_233107.jpg","9k.png"],
+         "instagram" : "@kristel_park"
+     }
+    ]
+}
