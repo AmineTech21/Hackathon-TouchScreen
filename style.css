@@ -1,5 +1,5 @@
 #map{
-    height: 400px;
+    height: 800px;
     width: 100%;
 }
 
@@ -9,13 +9,36 @@
 
 /* Center the pop-up*/
 .gm-style .gm-style-iw-c {
-    transform: translate3d(15%,-10%,0);
+    /*transform: translate3d(15%,-10%,0);------------------------*/
 }
-
+ /*hidde the arrow*/
 .gm-style .gm-style-iw-t::after {
-   display: none;
+   /*display: none;-------------------------*/
 }
-
+/*photo in the pop-up*/
 .image-pop-up{
     width: 100px;
 }
+/*about section pop up*/
+.about-section-pop-up{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+
+}
+
+.grid-item1-pop-up {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+.grid-item2-pop-up {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+
+
+
+

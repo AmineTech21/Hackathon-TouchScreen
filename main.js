@@ -39,8 +39,7 @@ function initMap(){
         {
             coords:{lat:35.70027440982651,lng:-0.6499302542152523},
             IconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-            content:'<h1>Mosquée</h1> <br>'+
-                    '<img class="image-pop-up" src="images/mosque-ben-abdullah.png">'
+            content:`<h1>Mosquée</h1> <br><div class="about-section-pop-up"><div class="grid-item1-pop-up"><img src="images/mosque-ben-abdullah.png" alt=""></div><div class="grid-item2-pop-up"><h2>About</h2> <p>Je suis une section about</p></div></div>`
 
 
         },
