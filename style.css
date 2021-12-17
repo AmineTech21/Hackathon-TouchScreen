@@ -6,8 +6,7 @@ body{
 
 .Google-map{
     display: flex;
-    margin: 15px;
-    font-size: 20px;
+    font-size: 23px;
   /*  border: 7px solid blue;*/
     border-radius: 10px;
 
@@ -16,40 +15,56 @@ body{
 ul{
     display: flex;
     flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.distance{
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+
 }
 /*Direction of all the div in the navbar*/
 .navbar div{
     display: flex;
     flex-direction: column !important;
+    justify-content: space-between !important;
+}
 
+.image-menu-map{
+    width: 50px !important;
 }
 
 .Google-map img{
     width: 50px;
 }
 .map-color{
-    border: 5px #0DCAF0 solid;
+    border: 5px black solid;
 }
 
 
 #map{
     grid-column-start: 1;
     grid-column-end: 4;
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 
 .gm-style-iw{
-    color: red !important;
+    color: black !important;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Center the pop-up*/
+/* Pop-Up*/
 .gm-style .gm-style-iw-c {
-    /*transform: translate3d(15%,-10%,0);------------------------*/
+    background-color: white;
+    border-radius: 1px;
+    padding: 12px;
+    border: 3px solid #212529;
+    box-shadow: 0 2px 7px 1px rgb(0 0 0 / 30%);
 }
  /*hidde the arrow*/
 .gm-style .gm-style-iw-t::after {
-   /*display: none;-------------------------*/
+   display: none;
 }
 
 /*petit bonhomme*/

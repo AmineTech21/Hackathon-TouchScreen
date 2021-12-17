@@ -3,6 +3,8 @@ function initMap(){
     //Map options
     var options = {
         zoom:12,
+        maxZoom: 18,
+        minZoom: 10,
         center:{lat:35.6987,lng:-0.6349}
     }
     
@@ -38,7 +40,7 @@ function initMap(){
         },
         {
             coords:{lat:35.70027440982651,lng:-0.6499302542152523},
-            IconImage:'images/test_test_4.svg',
+            IconImage:'images/icone_theatre_regional_doran.svg',
             content:`<h1>Mosquée</h1> <br><div class="about-section-pop-up"><div class="grid-item1-pop-up"><img src="images/mosque-ben-abdullah.png" alt=""></div><div class="grid-item2-pop-up"><h2>About</h2> <p>Je suis une section about</p></div></div>`
 
 
