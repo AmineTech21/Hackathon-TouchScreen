@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="60"
+   viewBox="0 0 18.520832 15.874999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       id="mask-powermask-path-effect2657_inverse"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g19702">
+      <g
+         id="g19720">
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:3.00001"
+           id="ellipse2915"
+           ry="6.1797585"
+           rx="6.0218024"
+           cy="8.0116892"
+           cx="8.9411926" />
+        <g
+           id="g5118"
+           style="fill:#ffffff;stroke-width:0.203148"
+           transform="matrix(4.922519,0,0,4.922519,-374.04353,107.36394)">
+          <path
+             style="fill:#ffffff;stroke:none;stroke-width:0.0537496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 78.690517,-19.521899 -0.01828,-0.137027 -1.635199,-0.02741 -0.0091,0.22838 -0.274056,0.0091 0.0091,-1.562118 c 0,0 0.25427,-0.06659 0.276879,-0.002 0.0226,0.0646 0.0032,0.946325 0.0032,0.946325 l 0.639495,-0.02584 0.01614,-0.610428 c 0,0 1.185328,-0.14211 1.240234,0.142111 0.05491,0.28422 0.03876,1.111043 0.03876,1.111043 l -0.268073,0.01292 z"
+             id="path4944" />
+          <circle
+             style="fill:#ffffff;stroke:none;stroke-width:0.609443"
+             id="path5034"
+             cx="77.37899"
+             cy="-20.421881"
+             r="0.2809906" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

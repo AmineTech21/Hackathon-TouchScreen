@@ -57,14 +57,15 @@ ul{
 /* Pop-Up*/
 .gm-style .gm-style-iw-c {
     background-color: white;
-    border-radius: 1px;
+    border-radius: 15px;
+    border: black 8px solid;
+    max-width: 1200px !important;
     padding: 12px;
-    border: 3px solid #212529;
     box-shadow: 0 2px 7px 1px rgb(0 0 0 / 30%);
 }
- /*hidde the arrow*/
+/*hidde the arrow*/
 .gm-style .gm-style-iw-t::after {
-   display: none;
+    display: none;
 }
 
 /*petit bonhomme*/
@@ -75,6 +76,8 @@ ul{
 /*photo in the pop-up*/
 .image-pop-up{
     width: 100px;
+    border: 3px solid #212529 !important;
+    
 }
 
 /*about section pop up*/
@@ -88,19 +91,24 @@ ul{
 
 /*Taille Image dans le pop-up*/
 .about-section-pop-up img{
-    width: 150px;
+    width: 300px;
+}
+.gm-style-iw-c h1{
+    text-align: center;
 }
 
 /*position image dans le pop-up*/
 .grid-item1-pop-up {
     grid-column-start: 1;
     grid-column-end: 3;
+
   }
 
 /*position about section pop up*/
 .grid-item2-pop-up {
     grid-column-start: 3;
     grid-column-end: 4;
+    font-size: 20px;
   }
 
 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="60"
+   viewBox="0 0 18.520832 15.874999"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Icone Parking.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.12"
+     inkscape:cx="62.207032"
+     inkscape:cy="22.363281"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <filter
+       id="mask-powermask-path-effect2657_inverse"
+       inkscape:label="filtermask-powermask-path-effect2657"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g18185">
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:3.00001"
+         id="ellipse2915"
+         ry="6.1797585"
+         rx="6.0218024"
+         cy="8.0116892"
+         cx="8.9411926" />
+      <path
+         id="rect6111"
+         style="fill:#ffffff;stroke-width:3"
+         d="m 4.2478635,2.8456938 h 9.6953715 c 0.108385,0 0.195638,0.2035707 0.195638,0.4564476 v 9.1737596 c 0,0.252877 -0.08725,0.456447 -0.195638,0.456447 H 4.2478635 c -0.1083849,0 -0.1956386,-0.20357 -0.1956386,-0.456447 V 3.3021414 c 0,-0.2528769 0.087254,-0.4564476 0.1956386,-0.4564476 z" />
+      <g
+         aria-label="P"
+         id="text6745"
+         style="font-size:1.42722px;line-height:1.25;font-family:'Louis George Café Light';-inkscape-font-specification:'Louis George Café Light, ';fill:#000000;stroke-width:0.0416948"
+         transform="matrix(6.3457195,0,0,6.3457195,-482.89035,89.104087)">
+        <path
+           d="m 77.904324,-12.999947 c 0,0.03717 -0.007,0.0741 -0.02091,0.110805 -0.01394,0.03624 -0.03554,0.06876 -0.06481,0.09756 -0.02927,0.02881 -0.06667,0.05227 -0.112198,0.07038 -0.04553,0.01765 -0.09988,0.02648 -0.163071,0.02648 h -0.112896 v 0.326839 c -0.04392,0.05667 -0.08439,0.03719 -0.124045,0 v -0.910829 h 0.256453 c 0.04507,0 0.08827,0.0051 0.129621,0.01533 0.04135,0.0098 0.07758,0.02578 0.108714,0.04809 0.03159,0.0223 0.05668,0.0511 0.07526,0.08641 0.01859,0.03531 0.02788,0.07828 0.02788,0.128923 z m -0.128924,0.0056 c 0,-0.05854 -0.01928,-0.103373 -0.05784,-0.134498 -0.03809,-0.03113 -0.09152,-0.04669 -0.160284,-0.04669 h -0.126833 v 0.374924 h 0.115683 c 0.0734,0 0.129853,-0.01603 0.169343,-0.04809 0.03995,-0.03206 0.05993,-0.08061 0.05993,-0.145649 z"
+           style="font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.0416948"
+           id="path15059"
+           sodipodi:nodetypes="scscsccccsccsssscsccscss" />
+      </g>
+    </g>
+  </g>
+</svg>

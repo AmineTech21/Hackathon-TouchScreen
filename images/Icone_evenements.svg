@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="60"
+   viewBox="0 0 18.520832 15.874999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       id="mask-powermask-path-effect2657_inverse"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g17998">
+      <g
+         id="g17990">
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:3.00001"
+           id="ellipse2915"
+           ry="6.1797585"
+           rx="6.0218024"
+           cy="8.0116892"
+           cx="8.9411926" />
+        <g
+           id="g17983"
+           transform="matrix(1.2516323,0,0,1.2516323,-2.0267856,-2.347469)"
+           style="stroke-width:0.798956">
+          <rect
+             style="fill:#ffffff;stroke:none;stroke-width:2.39687"
+             id="rect15918"
+             width="7.7487288"
+             height="5.1830077"
+             x="4.9740796"
+             y="6.8157005"
+             rx="0.14466916"
+             ry="0.36529022" />
+          <path
+             style="fill:#ffffff;stroke:none;stroke-width:0.21139px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="M 5.3074921,6.4671361 H 12.536416 V 5.0880318 L 12.112094,4.6636908 H 10.626901 V 4.1029563 H 10.157106 V 4.6636908 H 7.6868214 V 4.0726489 H 7.1715489 V 4.7394663 H 5.7015163 L 5.2771941,5.1638073 Z M 10.533337,8.8715681 8.6472826,10.564728 C 8.0257442,10.393267 7.2127799,9.4311756 7.6238886,9.5413309 8.0349786,9.6514867 8.2271788,10.332099 8.6103591,10.110871 8.9935301,9.8896444 10.643755,8.4594825 10.533337,8.8715681 Z"
+             id="path16134" />
+          <path
+             style="fill:#000000;stroke:none;stroke-width:0.21139px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="M 10.648739,8.3123572 8.7948358,10.16626 7.2375129,9.2671394 8.6218927,9.6380823 Z"
+             id="path17041" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="60"
+   viewBox="0 0 18.520832 15.874999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       id="mask-powermask-path-effect2657_inverse"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g17804">
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:3.00001"
+         id="ellipse2915"
+         ry="6.1797585"
+         rx="6.0218024"
+         cy="8.0116892"
+         cx="8.9411926" />
+      <g
+         id="g17730"
+         transform="matrix(0.16258944,0,0,0.16258944,-3.2450077,-11.575013)"
+         style="fill:#ffffff;stroke-width:6.15046">
+        <g
+           id="g4039"
+           style="fill:#ffffff;stroke-width:0.173483"
+           transform="matrix(35.452959,0,0,35.452959,-2676.9514,1226.3309)">
+          <path
+             style="fill:#ffffff;stroke:none;stroke-width:0.0459004px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 76.74929,-30.634855 0.0091,0.200972 h 1.772227 v -0.214675 l -0.173567,-0.109622 -0.01371,-0.689708 -0.255786,-0.0046 0.01826,0.653166 -0.15073,-0.0046 -0.0091,-0.648597 -0.22838,0.0046 -0.0137,0.6486 h -0.169003 v -0.662302 h -0.219244 v 0.698841 H 77.20603 v -0.698841 h -0.228378 v 0.698841 z"
+             id="path3745" />
+          <path
+             style="fill:#ffffff;stroke:none;stroke-width:0.0459004px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 76.781262,-31.534671 h 1.70828 v -0.214678 l -0.729398,-0.421118 h -0.229796 l -0.761966,0.43992 z"
+             id="path3813" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

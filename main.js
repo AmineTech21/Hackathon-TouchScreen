@@ -41,7 +41,16 @@ function initMap(){
         {
             coords:{lat:35.70027440982651,lng:-0.6499302542152523},
             IconImage:'images/icone_theatre_regional_doran.svg',
-            content:`<h1>Mosquée</h1> <br><div class="about-section-pop-up"><div class="grid-item1-pop-up"><img src="images/mosque-ben-abdullah.png" alt=""></div><div class="grid-item2-pop-up"><h2>About</h2> <p>Je suis une section about</p></div></div>`
+            content:`<h1 style="text-align: center;">Mosquée</h1> <br>
+            <hr>
+            <div class="about-section-pop-up">
+                <div class="grid-item1-pop-up"><img class="image-pop-up" src="images/mosque-ben-abdullah.png" alt=""></div>
+                <div class="grid-item2-pop-up"><h2>About</h2> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br> <hr>
+                    <p>C'est la plus belle mosquée que j'ai visité de toute ma vie !!!!!!!!!</p> <br>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>`
 
 
         },

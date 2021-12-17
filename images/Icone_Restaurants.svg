@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="60"
+   viewBox="0 0 18.520832 15.874999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       id="mask-powermask-path-effect2657_inverse"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2657_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g18986">
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:3.00001"
+         id="ellipse2915"
+         ry="6.1797585"
+         rx="6.0218024"
+         cy="8.0116892"
+         cx="8.9411926" />
+      <g
+         id="g18979"
+         transform="matrix(1.1160202,0,0,1.1160202,-0.85102044,-1.2190061)"
+         style="stroke-width:0.896041">
+        <path
+           style="fill:#ffffff;stroke:none;stroke-width:0.237076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 4.7479107,12.2684 h 8.3916343 c 0.428886,0.240757 1.155605,-1.763534 0.472519,-1.763534 H 4.3520637 c 0,0 -0.7861667,1.0811 0.395798,1.763534 z"
+           id="path4604" />
+        <path
+           style="fill:#ffffff;stroke:none;stroke-width:0.237076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 13.739033,9.850448 H 4.2225883 c -0.3706936,-0.037581 -0.7949537,-1.9592644 0,-1.9592644 h 9.4884467 c 0.158686,-0.019711 0.73649,1.4343288 0.02819,1.9592644 z"
+           id="path4672" />
+        <path
+           style="fill:#ffffff;stroke:none;stroke-width:0.237076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 4.110614,7.1674352 h 9.544449 c 0,0 -0.761939,-3.6308821 -4.9215013,-3.7871358 C 4.6471053,3.7721756 4.110614,7.1674352 4.110614,7.1674352 Z"
+           id="path4740" />
+      </g>
+    </g>
+  </g>
+</svg>
