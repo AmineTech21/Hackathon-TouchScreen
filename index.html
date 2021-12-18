@@ -10,16 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="covid.css">
     <title>Hackathon</title>
 </head>
 <body>
-    <h1>My Google Map</h1>
+  
 
+  <!--<img style="width: 100%;" src="images/jpg_20211218_013544_0000.jpg" alt="">-->
 
     <div class="Google-map">
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+              <img src="images/image-removebg-preview (9).png" alt="">
                 <form class="d-flex search">
                   <input class="form-control me-2" type="search" placeholder="Oran" aria-label="Search">
                   <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass-location"></i></button>
@@ -31,7 +35,7 @@
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-landmark"></i> Monuments</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-futbol"></i> Lieux de loisirs</a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-futbol"></i> Playground</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-burger"></i> Restaurants</a>
@@ -40,13 +44,13 @@
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bed"></i> Hôtels</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-train-tram"></i> Station de Trame</a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-train-tram"></i> Tram Stations</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-square-parking"></i> Parking</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-calendar-check"></i> Événements</a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-calendar-check"></i> Events</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-shoe-prints"></i> Lost Items</a>
@@ -54,7 +58,14 @@
 
                 </ul>
                 <div class="container-fluid" style="align-items: center;">
-                    <a class="navbar-brand" href="#">MOB ORAN</a>
+                    <a class="navbar-brand" href="#"><img src="images/logo_moboran.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            </div>
+                <div class="container-fluid" style="align-items: center;">
+                    <a class="navbar-brand" href="#"><img id="qr_code" src="images/qr-code_2 (1).svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -62,11 +73,64 @@
             </div>
         </div>
     </nav>
-        <div class="map-color" id="map">
+    <div class="column-w">
+      <div class="container">
+      <div class="weather-side">
+          <div class="weather-gradient"></div>
+          <div class="date-container">
+              <h2 class="date-dayname">Saturday</h2><span class="date-day" id="dateid"> </span><i class="location-icon" data-feather="map-pin"></i><span class="location">Oran, DZ</span>
+          </div>
+          <div class="weather-container"><i class="weather-icon" data-feather="sun"></i>
+              <h1 class="weather-temp">13°C</h1>
+              <h3 class="weather-desc">Sunny</h3>
+          </div>
+      </div>
+      <div class="info-side">
+          <div class="today-info-container">
+              <div class="today-info">
+                  <div class="precipitation"> <span class="title">PRECIPITATION</span><span class="value">0 %</span>
+                      <div class="clear"></div>
+                  </div>
+                  <div class="humidity"> <span class="title">HUMIDITY</span><span id="valuehumidity" class="value"> 82 %</span>
+                      <div class="clear"></div>
+                  </div>
+                  <div class="wind"> <span class="title">WIND</span><span class="value">3.6 m/s</span>
+                      <div class="clear"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="week-container">
+              <ul class="week-list">
+                  <li class="active"><i class="day-icon" data-feather="sun"></i><span class="day-name">Sat</span><span class="day-temp">13°C</span></li>
+                  <li><i class="day-icon" data-feather="cloud"></i><span class="day-name">Sun</span><span class="day-temp">16°C</span></li>
+                  <li><i class="day-icon" data-feather="cloud-snow"></i><span class="day-name">Mon</span><span class="day-temp">08°C</span></li>
+                  <li><i class="day-icon" data-feather="cloud-rain"></i><span class="day-name">Tue</span><span class="day-temp">18°C</span></li>
+                  <div class="clear"></div>
+              </ul>
+          </div>
+          <div class="location-container"><button class="location-button"> <i data-feather="map-pin"></i><span>Change location</span></button></div>
+      </div>
 
-        </div>
+      <div class="cards">
+          <div class="card">
+              <h3 id="cases">213,745</h3>
+              <p>Total Cases</p>
+          </div>
+          <div class="card">
+              <h3 id="deaths">6,171</h3>
+              <p>Total Deaths</p>
+          </div>
+          <div class="card">
+              <h3 id="recovered">147,069</h3>
+              <p>Total Recovered</p>
+          </div>
+      </div>
+  </div>
+      <div class="map-color" id="map">
+  </div>
     </div>
-    <div><h2>Copyright</h2></div>
+    </div>
+    
     <!--Google Map API-->
     <script src="main.js"></script>
     <script

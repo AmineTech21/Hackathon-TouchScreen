@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+h3.heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.select {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.select select {
+  margin: 1rem auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  max-width: 1200px;
+}
+.cards .card {
+  width: 300px;
+  max-width: 300px;
+  height: 130px;
+  margin: 12px;
+  padding: 1.5rem;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 6px 26px -17px black;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.cards .card h3 {
+  font-size: 40px;
+}
+.cards .card p {
+  font-size: 20px;
+}
+.cards .card:nth-child(1) {
+  background-color: #3498db;
+}
+.cards .card:nth-child(2) {
+  background-color: #e74c3c;
+}
+.cards .card:nth-child(3) {
+  background-color: #2ecc71;
+}
+.cards .card:hover {
+  transform: translateY(-4px);
+}
+
+.world-map,
+.country-chart {
+  width: 900px;
+  max-width: 100%;
+  margin: 8px auto;
+  box-shadow: 2px 3px 18px -17px black;
+  margin-bottom: 2rem;
+}
+
+p.info {
+  text-align: center;
+  font-size: 14px;
+}
+p.info a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=covid.css.map */
