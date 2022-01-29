@@ -268,6 +268,7 @@ async function getWeatherData() {
         const data = await response.json();
         const {temp, pressure, humidity, wind, description} = data
         const weatherOran = document.getElementById('temp').textContent = `${temp}°C`;
+        const todayWeatherOran = document.getElementById('today-temp').textContent = `${temp}°C`;
         const pressureOran = document.getElementById('pressure').textContent = `${pressure} hpa`;
         const humidityOran = document.getElementById('valuehumidity').textContent = `${humidity} %`;
         const windOran = document.getElementById('wind').textContent = `${wind} m/s`;
