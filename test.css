@@ -110,7 +110,7 @@
 
 .today-info {
   padding: 15px;
-  margin: 0 25px 0 25px;
+  margin: 0 25px 10px 25px;
   /*  box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25); */
   border-radius: 10px;
 }
@@ -145,7 +145,7 @@
 
 .week-list>li {
   float: left;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
   -webkit-transition: 200ms ease;
   -o-transition: 200ms ease;
@@ -177,7 +177,7 @@
 
 .week-list>li .day-icon {
   display: block;
-  height: 30px;
+  height: 10px;
   width: auto;
   margin: 0 auto;
 }
