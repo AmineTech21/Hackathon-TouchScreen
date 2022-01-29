@@ -226,3 +226,75 @@ function initMap(){
         
     }
 }
+
+//Fetch data from "WEATHER" Api
+// const weatherUrl = 'https://monobort.herokuapp.com/weather';
+//   fetch(weatherUrl)
+//      .then(res => res.json())
+//      .then(data => console.log(data))
+
+
+const weatherUrl = 'https://monobort.herokuapp.com/weather';
+const covidUrl = 'https://monobort.herokuapp.com/covid';
+
+//for the principal weather Card
+const TheWeekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+//for the other weather small cards
+const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+const d = new Date();
+let arrayDay = d.getDay();
+
+//Get the Arrays Number
+let arrayToday = arrayDay
+let arrayDayAfter = arrayDay + 1
+let arrayTwoDayAfter = arrayDay + 2
+let arrayThreeDayAfter = arrayDay + 3
+
+
+//Get the days names
+let today = TheWeekday[arrayToday];
+let smalltoday = weekday[arrayToday];
+let DayAfter = weekday[arrayDayAfter];
+let twoDayAfter = weekday[arrayTwoDayAfter];
+let threeDayAfter = weekday[arrayThreeDayAfter];
+
+
+
+async function getWeatherData() {
+        
+    const response = await fetch(weatherUrl)
+        const data = await response.json();
+        const {temp, pressure, humidity, wind, description} = data
+        const weatherOran = document.getElementById('temp').textContent = `${temp}°C`;
+        const pressureOran = document.getElementById('pressure').textContent = `${pressure} hpa`;
+        const humidityOran = document.getElementById('valuehumidity').textContent = `${humidity} %`;
+        const windOran = document.getElementById('wind').textContent = `${wind} m/s`;
+        const weatherDescriptionOran = document.getElementById('weatherDescription').textContent = `${description}`;
+        
+        //Days
+        const dayOran = document.getElementById('day').textContent = `${today}`;
+        const smallToday = document.getElementById('small-today').textContent = `${smalltoday}`;
+        const smallDayAfter = document.getElementById('small-dayafter').textContent = `${DayAfter}`;
+        const smallTwoDayAfter = document.getElementById('small-twodayafter').textContent = `${twoDayAfter}`;
+        const smallThreeDayAfter = document.getElementById('small-threedayafter').textContent = `${threeDayAfter}`;
+
+}
+
+getWeatherData();
+
+async function getCovidData() {
+        
+    const response = await fetch(covidUrl)
+    const data = await response.json();
+    const {newConfirmed, newDeaths, newRecovered} = data
+
+    const newCovidCases = document.getElementById('new-cases').textContent = `${newConfirmed}`;
+    const newCovidDeaths = document.getElementById('new-deaths').textContent = `${newDeaths}`;
+    const newCovidRecovered = document.getElementById('new-recovered').textContent = `${newRecovered}`;
+        
+
+}
+
+getCovidData();
