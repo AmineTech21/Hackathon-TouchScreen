@@ -271,7 +271,7 @@ async function getWeatherData() {
         const weatherDescriptionOran = document.getElementById('weatherDescription').textContent = `${description}`;
         
         //Days
-        const dayOran = document.getElementById('day').textContent = `${today}`;
+        // const dayOran = document.getElementById('day').textContent = `${today}`;
         const smallToday = document.getElementById('small-today').textContent = `${smalltoday}`;
         const smallDayAfter = document.getElementById('small-dayafter').textContent = `${DayAfter}`;
         const smallTwoDayAfter = document.getElementById('small-twodayafter').textContent = `${twoDayAfter}`;
