@@ -185,10 +185,7 @@ function initMap(){
                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 </div>
             </div>`
-
-
         },
-
     ];
 
     //Loop through markers
@@ -222,7 +219,5 @@ function initMap(){
                 infoWindow.open(map, marker);
             });
         }
-
-        
     }
 }
