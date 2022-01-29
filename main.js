@@ -236,6 +236,7 @@ function initMap(){
 
 const weatherUrl = 'https://monobort.herokuapp.com/weather';
 const covidUrl = 'https://monobort.herokuapp.com/covid';
+const prayerUrl = 'https://monobort.herokuapp.com/salat';
 
 //for the principal weather Card
 const TheWeekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -299,3 +300,24 @@ async function getCovidData() {
 }
 
 getCovidData();
+
+async function getPrayerData() {
+        
+    const response = await fetch(prayerUrl)
+    const data = await response.json();
+    const {Fajr, Dhuhr, Asr, Maghrib, Isha} = data
+
+    const fajrPrayer = document.getElementById('fajr-time').textContent = `${Fajr.substring(0,5)}`;
+    const dhuhrPrayer = document.getElementById('dhuhr-time').textContent = `${Dhuhr.substring(0,5)}`;
+    const asrPrayer = document.getElementById('asr-time').textContent = `${Asr.substring(0,5)}`;
+    const maghrebPrayer = document.getElementById('maghreb-time').textContent = `${Maghrib.substring(0,5)}`;
+    const ishaPrayer = document.getElementById('isha-time').textContent = `${Isha.substring(0,5)}`;
+
+
+    console.log(data)
+        
+    
+
+}
+
+getPrayerData();
